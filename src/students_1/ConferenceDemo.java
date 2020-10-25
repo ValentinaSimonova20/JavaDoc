@@ -1,4 +1,4 @@
-package students;
+package students_1;
 
 public class ConferenceDemo {
     public static void main(String[] args) {
@@ -15,8 +15,7 @@ public class ConferenceDemo {
 
         Conference conference = new Conference(conferenceMembers);
 
-        System.out.println("Количество школьников на конференции: "+conference.countSchoolboys());
+        System.out.println(conference.countLearns());
 
-        System.out.println("Количество студентов на конференции: "+conference.countUndergrad());
     }
 }

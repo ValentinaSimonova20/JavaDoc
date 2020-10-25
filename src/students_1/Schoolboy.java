@@ -1,4 +1,4 @@
-package students;
+package students_1;
 
 /**
  * Класс Школьник - производный класс от класса учащихся

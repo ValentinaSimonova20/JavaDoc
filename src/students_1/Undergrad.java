@@ -1,4 +1,4 @@
-package students;
+package students_1;
 
 /**
  * Класс Студент - производный класс от класса учащегося
