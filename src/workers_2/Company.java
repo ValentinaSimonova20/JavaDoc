@@ -17,6 +17,10 @@ public class Company {
         this.workers = workers;
     }
 
+    /**
+     * Возвращает количество работников отдельно на почасовой оплате и на окладе
+     * @return строку с информацией о количестве работников компании
+     */
     public String countWorkers(){
         int hourlyWorkers = 0;
         int salaryWorkers = 0;

@@ -5,8 +5,8 @@ package workers_2;
  * @author Симонова В.В.
  */
 public class HourlyWorker extends Worker{
-    /** Поле для хранения оплаты за час*/
-    double salaryPerHour;
+    /** Поле для хранения оплаты за час работнику*/
+    private double salaryPerHour;
 
     /**
      * Создает работника на почасовой оплате с заданными именем, фамилией, ИНН и оплатой за час
