@@ -5,8 +5,9 @@ package students_1;
  * @author Симонова В.В.
  */
 public class Schoolboy extends Student{
+
     /** Поле для хранения номера школы*/
-    int schoolNumber;
+    private int schoolNumber;
 
     /**
      * Создает школьника с заданным значением номера школы, без имени и фамилии
@@ -18,10 +19,10 @@ public class Schoolboy extends Student{
 
     /**
      * Создает школьника с фамилией, именем, возрастом и номером школы
-     * @param surname
-     * @param name
-     * @param age
-     * @param schoolNumber
+     * @param surname - фамилия школьника
+     * @param name - имя школьникагщ
+     * @param age - возраст школьника
+     * @param schoolNumber - номер школы
      */
     public Schoolboy(String surname, String name, int age, int schoolNumber) {
         super(surname, name, age);

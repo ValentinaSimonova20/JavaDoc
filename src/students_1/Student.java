@@ -5,6 +5,7 @@ package students_1;
  * @author Симонова В.В.
  */
 public class Student {
+
     /** Поле для хранения фамилии учащегося */
     private String surname;
 

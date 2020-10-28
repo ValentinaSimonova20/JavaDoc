@@ -7,7 +7,7 @@ package furniture_9;
 public class Sofa extends Furniture{
 
     /** Поле для хранения количества мест на диване*/
-    double numberOfSeats;
+    private double numberOfSeats;
 
     /**
      * Создает диван с заданными названием, ценой и количеством сидений

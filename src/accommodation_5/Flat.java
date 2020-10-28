@@ -22,7 +22,7 @@ public class Flat extends Accommodation{
 
     /**
      * Создает квартиру с площадью равной 0, ценой равной 0, без название и с указателем на наличие раздельного санузла в квартире
-     * @param isSeparateBath
+     * @param isSeparateBath - указание на раздельный санузел
      */
     public Flat(boolean isSeparateBath) {
         super();
